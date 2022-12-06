@@ -18,6 +18,6 @@ object RetrofitClass {
 }
 
 interface HadeethApi {
-    @GET("hadeeths/list/?page=1&per_page=1000&category_id=3&language=en")
+    @GET("hadeeths/list/?page=1&per_page=1000&category_id=4&language=en")
     suspend fun getAllHadeest(): allHadeest
 }
